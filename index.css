@@ -1,0 +1,119 @@
+body
+{
+	margin: 0;
+	background: url(images/railway1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+	background-size: 125%;
+	-webkit-box-sizing: border-box;
+	-webkit-text-size-adjust: 100%;
+	-webkit-box-orient: vertical;
+	overflow-x: hidden;
+
+}
+.login{
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-sizing: border-box;
+	box-sizing: inherit;
+}
+.loginBox
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0 auto 25px	;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 410px;
+	padding: 80px 40px;
+	background: rgba(0,0,0,.9);
+	-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+	box-sizing: inherit;
+	-webkit-box-sizing: border-box;
+}
+
+.user
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+}
+h2
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 16px;
+}
+
+.loginBox p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #ffffff;
+}
+.loginBox input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+::placehoder
+{
+	color: rgba(255,255,255,.5);
+}
+.loginBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #000000;
+	font-size: 16px;
+	background: #ffffff;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.loginBox input[type="submit"]:hover
+{
+	opacity: 0.8;
+}
+.loginBox input[type="submit"]:active
+{
+	opacity: 0.6;
+}
+.loginBox a
+{
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+}
+.loginBox a:hover
+{
+	opacity: 0.7;
+}
+.loginBox a:active
+{
+	opacity: 0.5;
+}
